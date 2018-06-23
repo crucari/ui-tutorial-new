@@ -1,3 +1,44 @@
-body{
+body {
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    color: #444;
+    letter-spacing: 1px;
+    height: 100vh;
+    background-image: url("http://bit.ly/ui-bg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#client-list-ul{
+    min-width: 500px;
+    background-color: #fffbfb;
+    padding: 20px 20px 5px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #d3d1dd;
+}
+
+#client-list-ul li {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f5f5f5;
+    list-style: none;
+}
+
+#client-list-ul li:last-child {
+    border-bottom: none;
 }
